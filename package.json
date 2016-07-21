@@ -1,0 +1,17 @@
+{
+  "name": "temperatureupdater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "node-schedule": "^1.1.1",
+    "request": "^2.73.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "bcuesta",
+  "license": "ISC"
+}
