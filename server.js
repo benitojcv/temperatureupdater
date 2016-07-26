@@ -10,7 +10,7 @@ var PLACE_LATLON = [28.4718594,-16.2557392];
 // Weather service configurarion
 var APIKEY = "70ea1b52f9f60506240faf2f4a4f130a"
 var WEATHER_URI = "https://api.forecast.io/forecast/" + APIKEY + "/" + PLACE_LATLON.toString();
-var SCHEDULER = '*/1 * * * *';
+var SCHEDULER = '*/30 * * * * *';
 
 var j = schedule.scheduleJob(SCHEDULER, function(){
   request(WEATHER_URI, function (error, response, body) {
